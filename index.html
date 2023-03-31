@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculadora">
+    <div class="display">
+      <h2>Calculadora - By: Italo</h2>
+      <input type="text" id="resultado" disabled>
+    </div>
+    <div class="botoes">
+      <button onclick="limpar()">C</button>
+      <button onclick="apagar()">&#8592;</button>
+      <button onclick="calcular('**')">x<sup>2</sup></button>
+      <button onclick="calcular('sqrt')">√</button>
+      <button onclick="calcular('/')">÷</button>
+      <button onclick="calcular('*')">x</button>
+      <button onclick="calcular('-')">-</button>
+      <button onclick="calcular('+')">+</button>
+      <button onclick="calcular('.')">.</button>
+      <button onclick="calcular('0')">0</button>
+      <button onclick="calcular('1')">1</button>
+      <button onclick="calcular('2')">2</button>
+      <button onclick="calcular('3')">3</button>
+      <button onclick="calcular('4')">4</button>
+      <button onclick="calcular('5')">5</button>
+      <button onclick="calcular('6')">6</button>
+      <button onclick="calcular('7')">7</button>
+      <button onclick="calcular('8')">8</button>
+      <button onclick="calcular('9')">9</button>
+      <button onclick="calcular('=')">=</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
